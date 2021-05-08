@@ -94,6 +94,10 @@ const playerhaswon  = () => {
                         console.log(`${currplayer} wins up middle hori . `); ;
                         return true ;
                 }
+                if(spaces[2] == currplayer && spaces[6] == currplayer){
+                        console.log(`${currplayer} wins up middle hori . `); ;
+                        return true ;
+                }
         }
 }
 
